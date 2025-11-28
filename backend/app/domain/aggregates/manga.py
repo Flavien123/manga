@@ -1,7 +1,5 @@
 from dataclasses import dataclass
 
-from dataclasses import dataclass
-
 from src.domain.entities.chapter import Chapter
 from src.domain.entities.genre import Genre
 from src.domain.entities.tag import Tag
