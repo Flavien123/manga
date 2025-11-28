@@ -41,7 +41,7 @@ manga/
 
 1. **Клонируйте репозиторий:**
    ```bash
-   git clone <url-репозитория>
+   git clone https://github.com/Flavien123/manga.git
    cd manga
    ```
 
