@@ -24,13 +24,3 @@ class Manga:
     tags: list[Tag]
     chapters: list[Chapter]
     created_at: str
-    
-    # New fields for logic
-    poster_url: str = ""
-    
-    def add_chapter(self, chapter: Chapter):
-        self.chapters.append(chapter)
-        
-    def update_rating(self, new_rating: float):
-        # Simple average logic could go here, or just set it
-        self.rating = new_rating

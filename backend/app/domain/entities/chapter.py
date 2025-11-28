@@ -1,4 +1,5 @@
 from dataclasses import dataclass
+from ..value_objects.page import Page
 
 @dataclass
 class Chapter:
@@ -7,5 +8,5 @@ class Chapter:
     title: str
     number: float
     volume: int
-    pages: list[str] # List of image URLs
+    pages: list[Page]
     created_at: str
