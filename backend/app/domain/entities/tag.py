@@ -1,6 +1,6 @@
 from dataclasses import dataclass
 
 @dataclass
-class Page:
-    number: int
-    url: str
+class Tag:
+    id: int
+    name: str
